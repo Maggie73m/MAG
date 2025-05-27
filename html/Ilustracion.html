@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAG - Disciplinas</title>
+    <link rel="stylesheet" href="../css/styleInicio.css">
+    <style>
+        /* Asegurar sin subrayado y cursor pointer */
+        a {
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Fondo y partículas -->
+    <div id="background"></div>
+    <canvas id="particles"></canvas>
+
+    <!-- Header con logo y menú -->
+    <div id="header">
+        <div id="logo">MAG</div>
+        <div id="menu-toggle">&#9776;</div>
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../sobre-mi.html">Sobre mí</a></li>
+                <li><a href="../contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Rejilla con videos y enlaces a cada disciplina -->
+    <div class="grid">
+        <div class="item">
+            <a href="../disciplinas/videojuegos.html">
+                <video src="../media/vid/ideo1.mp4" autoplay muted loop></video>
+                <div class="overlay">Videojuegos</div>
+            </a>
+        </div>
+        <div class="item">
+            <a href="../disciplinas/transmedia.html">
+                <video src="../media/vid/ideo1.mp4" autoplay muted loop></video>
+                <div class="overlay">Proyectos transmedia</div>
+            </a>
+        </div>
+        <div class="item">
+            <a href="../disciplinas/fotografia.html">
+                <video src="../media/vid/vdeo1.mp4" autoplay muted loop></video>
+                <div class="overlay">Fotografía</div>
+            </a>
+        </div>
+        <div class="item">
+            <a href="../disciplinas/entornos.html">
+                <video src="../media/vid/vdeo1.mp4" autoplay muted loop></video>
+                <div class="overlay">Entornos</div>
+            </a>
+        </div>
+        <div class="item">
+            <a href="../disciplinas/coding.html">
+                <video src="../media/vid/vdeo1.mp4" autoplay muted loop></video>
+                <div class="overlay">Creative coding</div>
+            </a>
+        </div>
+        <div class="item">
+            <a href="../disciplinas/ilustracion.html">
+                <video src="../media/vid/vdeo1.mp4" autoplay muted loop></video>
+                <div class="overlay">Ilustración</div>
+            </a>
+        </div>
+        <div class="item">
+            <a href="../disciplinas/letras.html">
+                <video src="../media/vid/vieo1.mp4" autoplay muted loop></video>
+                <div class="overlay">Letras</div>
+            </a>
+        </div>
+    </div>
+
+    <!-- JS general -->
+    <script src="../js/scriptInicio.js"></script>
+</body>
+</html>
